@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class HomeController {
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+/*    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String getHomePage() {
-        return "redirect:/index.html";
-    }
+        return "forward:/index.html";
+    }*/
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     @ResponseBody
